@@ -1,0 +1,30 @@
+# Data paths
+data:
+  raw_file: "data/raw/song_lyrics.csv"
+  interim_file: "data/interim/english_lyrics.csv"
+  processed_file: "data/processed/english_lyrics_cleaned.csv"
+
+model:
+  model_name: "all-MiniLM-L6-v2"
+
+embeddings:
+  path: "src/embeddings/artist"
+  # path: "src/embeddings/artistv2"
+
+validation:
+  path: "data/generated/validation_lyrics.csv"
+  # path: "src/validation/artistv2_validation.csv"
+
+anchor_artists:
+  - "The Beatles"
+  - "Queen"
+  - "Bob Dylan"
+  - "Taylor Swift"
+  - "Ed Sheeran"
+  - "Demi Lovato"
+  - "Sia"
+  - "Eminem"
+  - "Johnny Cash"
+  - "Lady Gaga"
+  - "Kanye West"
+  - "Prince"
